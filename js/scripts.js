@@ -1,32 +1,10 @@
-alert('Hello world');
-console.log('Hello world');
+let pokemonList = [
+    { name: 'Braviary', height: 5, type: ['normal', 'flying'] }
+    { name: 'Ho-oh', height: 4, type: ['flying', 'fairy', 'fire', 'grass'] }
+    { name: 'Piplup', height: 1, type: ['water', 'ice'] }
+    { name: 'Rapidash' height: 1.7, type: ['fire', 'ice'] }
 
-let age = 30;
-let name = 'Trupti';
-
-let myAge = 35;
-let lisasAge = myAge;
-
-let myName = 'Trupti.';
-document.write(myName);
-myName = 'Trupti Hirani';
-document.write(myName);
-
-let simpleAddition = 2 + 2;
-document.write(simpleAddition);
-
-// let size = 100;
-// let doubleSize = size * 2;
-// document.write(doubleSize);
-
-let size = 100;
-let doubleSize = size * 2;
-let minSize = (doubleSize * 2) - (size / 2);
-document.write(minSize);
+];
 
 
-let favouriteFood = 'pani poori';
-document.write(favouriteFood);
 
-// let favouriteFood = 'maggie';
-// document.write(favouriteFood);
