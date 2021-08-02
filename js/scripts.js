@@ -1,17 +1,17 @@
 let pokemonList = [
     {
         name: 'Braviary',
-        height: 5,
+        height: 1.5,
         type: ['normal', 'flying']
     },
     {
         name: 'Ho-oh',
-        height: 4,
+        height: 3.8,
         type: ['flying', 'fairy', 'fire', 'grass']
     },
     {
         name: 'Piplup',
-        height: 1,
+        height: 0.4,
         type: ['water', 'ice']
     },
     {
