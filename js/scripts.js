@@ -27,12 +27,12 @@ let pokemonList = [
 ];
 // initials ;      condition;           action;  
 for (let i = 0; i < pokemonList.length; i++) {
-    if (pokemonList[i].height > 4 && pokemonList[i].height < 7) {
+    if (pokemonList[i].height > 3.5 && pokemonList[i].height < 4) {
         // this will display the longest pokemon from the list above
-        document.write(`${pokemonList[i].name} Height: ${pokemonList[i].height}cm - I\'m the Tallest/Longest Pokemon.`);
+        document.write(`${pokemonList[i].name} Height: ${pokemonList[i].height}m - I\'m the Tallest/Longest Pokemon.`);
     }
     else {
-        document.write(`<p>${pokemonList[i].name} Height: ${pokemonList[i].height}cm </p> `)
+        document.write(`<p>${pokemonList[i].name} Height: ${pokemonList[i].height}m </p> `)
     }
 }
 
