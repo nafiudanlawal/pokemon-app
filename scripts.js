@@ -5,3 +5,7 @@ let pokemonList = [
     { name: 'Rapidash', height: 1.7, type: ['fire', 'ice'] }
 
 ];
+
+pokemonList.forEach(function(pokemonList){
+    console.log('Name : ' + pokemonList.name + ' [ Height : ] ' + pokemonList.height + ' m] Type : ' + pokemonList.type);
+  })
